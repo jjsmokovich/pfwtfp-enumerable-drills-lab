@@ -29,5 +29,5 @@ def using_all?(array)
 end
 
 def using_any?(array)
-  array.any? { |num| num.is_a?Integer}
+  array.any? { |num| num.kind_of? Integer}
 end
